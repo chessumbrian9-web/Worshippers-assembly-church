@@ -140,3 +140,47 @@ body{
     color:#FFD700;
     font-style:italic;
 }
+.about{
+    padding:80px 10%;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#1a237e;
+    margin-bottom:20px;
+}
+
+.about-text{
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.about-cards{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
