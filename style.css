@@ -379,3 +379,34 @@ body{
 .contact-form button:hover{
     background:white;
 }
+.footer{
+    background:#06111f;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.footer h2{
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+.footer p{
+    margin:10px 0;
+}
+
+.footer a{
+    color:#FFD700;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.footer a:hover{
+    color:white;
+}
+
+.footer hr{
+    margin:30px auto;
+    width:80%;
+    border:1px solid rgba(255,255,255,.2);
+}
