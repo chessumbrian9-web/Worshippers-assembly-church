@@ -126,3 +126,17 @@ body{
 }
 
 }
+.buttons{
+    margin-top:30px;
+}
+
+.buttons .btn{
+    margin:10px;
+}
+
+.hero-content h3{
+    margin-top:40px;
+    font-weight:400;
+    color:#FFD700;
+    font-style:italic;
+}
