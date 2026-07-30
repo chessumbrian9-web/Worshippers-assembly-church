@@ -42,3 +42,32 @@ behavior:"smooth"
 });
 
 }
+// Mobile Menu
+
+const menuToggle=document.getElementById("menu-toggle");
+
+const navLinks=document.getElementById("nav-links");
+
+menuToggle.onclick=function(){
+
+navLinks.classList.toggle("active");
+
+}
+
+// Header Color Change
+
+window.addEventListener("scroll",function(){
+
+const header=document.getElementById("header");
+
+if(window.scrollY>80){
+
+header.style.background="#081625";
+
+}else{
+
+header.style.background="transparent";
+
+}
+
+});
