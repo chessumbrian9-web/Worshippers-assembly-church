@@ -184,3 +184,56 @@ body{
     color:#d4af37;
     margin-bottom:15px;
 }
+.leaders{
+    padding:80px 10%;
+    text-align:center;
+    background:white;
+}
+
+.leaders h2{
+    font-size:40px;
+    color:#1a237e;
+    margin-bottom:40px;
+}
+
+.leader-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.leader-card{
+    width:350px;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.leader-card:hover{
+    transform:translateY(-10px);
+}
+
+.leader-card img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+
+.leader-card h3{
+    margin-top:20px;
+    color:#1a237e;
+}
+
+.title{
+    color:#d4af37;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.leader-card p{
+    padding:0 20px 20px;
+    line-height:1.7;
+    }
